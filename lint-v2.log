@@ -1,0 +1,62 @@
+Shared read-only dependency cache is an incubating feature.
+
+> Configure project :app
+Unable to initialize metrics, ensure C:\Users\Indrajeet\.android is writable, details: C:\Users\Indrajeet\.android\analytics.settings (Access is denied)
+WARNING: The option setting 'android.aapt2FromMavenOverride=C:\Users\Indrajeet\AppData\Local\Android\Sdk\build-tools\36.1.0\aapt2.exe' is experimental.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/Indrajeet/OneDrive/Desktop/bluelink/.gradle-home/caches/9.6.0/transforms/b5e41dc51479a6f28742c31bb871ddbf/transformed/instrumented/guava-33.4.0-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :protocol:compileJava NO-SOURCE
+> Task :protocol:processResources NO-SOURCE
+> Task :protocol:classes UP-TO-DATE
+> Task :protocol:jar UP-TO-DATE
+> Task :app:extractProguardFiles
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:generateDebugLintReportModel
+> Task :app:generateDebugAndroidTestLintModel
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:generateDebugUnitTestLintModel
+> Task :app:lintAnalyzeDebug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lintAnalyzeDebug' (registered by plugin 'com.android.internal.application').
+> Error while evaluating property 'lintTool.versionKey' of task ':app:lintAnalyzeDebug'.
+   > Failed to calculate the value of task ':app:lintAnalyzeDebug' property 'lintTool.versionKey'.
+      > Could not resolve all files for configuration ':app:androidLintTool'.
+         > Could not resolve com.android.tools.lint:lint-gradle:32.4.1.
+           Required by:
+               project ':app'
+            > No cached version of com.android.tools.lint:lint-gradle:32.4.1 available for offline mode.
+            > No cached version of com.android.tools.lint:lint-gradle:32.4.1 available for offline mode.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 24s
+22 actionable tasks: 6 executed, 16 up-to-date

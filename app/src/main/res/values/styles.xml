@@ -1,0 +1,11 @@
+<resources>
+    <style name="Theme.BlueLink" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#190B29</item>
+        <item name="android:navigationBarColor">#190B29</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">#B6FF00</item>
+        <item name="android:windowBackground">#190B29</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+.gradle/
+.gradle-home/
+.android-home/
+**/build/
+local.properties
+.idea/
+*.iml
+*.jks
+*.keystore
+.tmp_library*/
+qa/
+__pycache__/

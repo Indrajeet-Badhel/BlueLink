@@ -1,0 +1,13 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.intellij.util.containers.Unsafe (file:/C:/Program%20Files/Android/Android%20Studio/plugins/Kotlin/kotlinc/lib/kotlin-compiler.jar)
+WARNING: Please consider reporting this to the maintainers of class com.intellij.util.containers.Unsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+app\src\main\java\dev\bluelink\SosEngine.kt:142:82: warning: 'var value: ByteArray!' is deprecated. Deprecated in Java.
+                if(Build.VERSION.SDK_INT<33)receive(gatt,token,id,characteristic.value ?: byteArrayOf(),status)
+                                                                                 ^^^^^
+app\src\main\java\dev\bluelink\SosEngine.kt:146:28: warning: 'fun connectGatt(p0: Context!, p1: Boolean, p2: BluetoothGattCallback!, p3: Int): BluetoothGatt!' is deprecated. Deprecated in Java.
+        try {client=device.connectGatt(context,false,cb,BluetoothDevice.TRANSPORT_LE);worker.schedule({if(token==generation && state.value.fetching!=null)client?.let{finish(it,token,"SOS details timed out")}},15,TimeUnit.SECONDS)}
+                           ^^^^^^^^^^^
+app\src\main\java\dev\bluelink\ui\FeatureScreens.kt:36:19: warning: 'val LocalClipboardManager: ProvidableCompositionLocal<ClipboardManager>' is deprecated. Use LocalClipboard instead which supports suspend functions.
+    val clipboard=LocalClipboardManager.current
+                  ^^^^^^^^^^^^^^^^^^^^^

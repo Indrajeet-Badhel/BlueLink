@@ -1,0 +1,125 @@
+Shared read-only dependency cache is an incubating feature.
+
+> Configure project :app
+Unable to initialize metrics, ensure C:\Users\Indrajeet\.android is writable, details: C:\Users\Indrajeet\.android\analytics.settings (Access is denied)
+WARNING: The option setting 'android.aapt2FromMavenOverride=C:\Users\Indrajeet\AppData\Local\Android\Sdk\build-tools\36.1.0\aapt2.exe' is experimental.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/Indrajeet/OneDrive/Desktop/bluelink/.gradle-home/caches/9.6.0/transforms/b5e41dc51479a6f28742c31bb871ddbf/transformed/instrumented/guava-33.4.0-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+
+> Task :app:exportRuntimeArtifacts
+Exported 75 runtime artifacts
+Kotlin output paths: [C:\Users\Indrajeet\OneDrive\Desktop\bluelink\app\build\kotlin\compileDebugKotlin\classpath-snapshot, C:\Users\Indrajeet\OneDrive\Desktop\bluelink\app\build\intermediates\built_in_kotlinc\debug\compileDebugKotlin\classes, C:\Users\Indrajeet\OneDrive\Desktop\bluelink\app\build\kotlin\compileDebugKotlin\cacheable]
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+
+BUILD SUCCESSFUL in 34s
+16 actionable tasks: 7 executed, 9 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.6.0/userguide/configuration_cache_enabling.html
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.intellij.util.containers.Unsafe (file:/C:/Program%20Files/Android/Android%20Studio/plugins/Kotlin/kotlinc/lib/kotlin-compiler.jar)
+WARNING: Please consider reporting this to the maintainers of class com.intellij.util.containers.Unsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.intellij.util.containers.Unsafe (file:/C:/Program%20Files/Android/Android%20Studio/plugins/Kotlin/kotlinc/lib/kotlin-compiler.jar)
+WARNING: Please consider reporting this to the maintainers of class com.intellij.util.containers.Unsafe
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+app\src\main\java\dev\bluelink\SosEngine.kt:142:82: warning: 'var value: ByteArray!' is deprecated. Deprecated in Java.
+                if(Build.VERSION.SDK_INT<33)receive(gatt,token,id,characteristic.value ?: byteArrayOf(),status)
+                                                                                 ^^^^^
+app\src\main\java\dev\bluelink\SosEngine.kt:146:28: warning: 'fun connectGatt(p0: Context!, p1: Boolean, p2: BluetoothGattCallback!, p3: Int): BluetoothGatt!' is deprecated. Deprecated in Java.
+        try {client=device.connectGatt(context,false,cb,BluetoothDevice.TRANSPORT_LE);worker.schedule({if(token==generation && state.value.fetching!=null)client?.let{finish(it,token,"SOS details timed out")}},15,TimeUnit.SECONDS)}
+                           ^^^^^^^^^^^
+app\src\main\java\dev\bluelink\ui\FeatureScreens.kt:36:19: warning: 'val LocalClipboardManager: ProvidableCompositionLocal<ClipboardManager>' is deprecated. Use LocalClipboard instead which supports suspend functions.
+    val clipboard=LocalClipboardManager.current
+                  ^^^^^^^^^^^^^^^^^^^^^
+Shared read-only dependency cache is an incubating feature.
+
+> Configure project :app
+Unable to initialize metrics, ensure C:\Users\Indrajeet\.android is writable, details: C:\Users\Indrajeet\.android\analytics.settings (Access is denied)
+WARNING: The option setting 'android.aapt2FromMavenOverride=C:\Users\Indrajeet\AppData\Local\Android\Sdk\build-tools\36.1.0\aapt2.exe' is experimental.
+Add android.sync.suppressAgpWarnings=UNSUPPORTED_PROJECT_OPTION_USE to the gradle.properties file to suppress this warning.
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper (file:/C:/Users/Indrajeet/OneDrive/Desktop/bluelink/.gradle-home/caches/9.6.0/transforms/b5e41dc51479a6f28742c31bb871ddbf/transformed/instrumented/guava-33.4.0-jre.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :protocol:compileJava NO-SOURCE
+> Task :protocol:processResources NO-SOURCE
+> Task :protocol:classes UP-TO-DATE
+> Task :protocol:jar
+> Task :app:processDebugJavaRes
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:mergeDebugJavaResource
+> Task :app:dexBuilderDebug
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:mergeLibDexDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+BUILD SUCCESSFUL in 26s
+35 actionable tasks: 8 executed, 27 up-to-date
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.6.0/userguide/configuration_cache_enabling.html
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::loadLibrary has been called by org.conscrypt.NativeLibraryUtil in an unnamed module (file:/C:/Users/Indrajeet/AppData/Local/Android/Sdk/build-tools/36.1.0/lib/apksigner.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Built and signature-verified dist\BlueLink_2.0.apk
